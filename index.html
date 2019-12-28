@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/58d71bc9d0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="/css/widescreen.css">
+  <title>EdgeLedger Financial | Accounting & Investment</title>
+</head>
+<body id="home">
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <span class="text-primary">
+        <i class="fas fa-book-open"></i> Edge
+      </span>Ledger
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading"><span class="text-primary">The Sky</span> Is The Limit</h1>
+      <p class="lead">Your future is in your hand, but we surely are happy to help. Click below to find out more.</p>
+      <a href="#what" class="btn">Find Out More</a>
+    </div>
+  </header>
+
+  <!-- What We Do -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-university fa-2x"></i>
+          <div class="item-details">
+            <h3>Investment Banking</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, possimus?</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-book-reader fa-2x"></i>
+          <div class="item-details">
+            <h3>Portfolio Management</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, possimus?</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+          <div class="item-details">
+            <h3>Tax & Custodial</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, possimus?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who We Are -->
+  <section id="who">
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+      <p>Below are the people who makes up our core team. Each person has an unparalled experience in their field, and we are happy to have them in our team.</p>
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>Oliver Anders: CEO</li>
+        <li>Stephanie Gray: CFO </li>
+        <li>David Gunadi: Lead Accountant</li>
+        <li>Janet Williams: Investment Manager</li>
+        <li>Jackson Williams: Senior Accountant</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section id="clients">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
+      <div class="client-logos">
+        <div class="client-logo"><img src="img/logos/logo1.png" alt="Client1"></div>
+        <div class="client-logo"><img src="img/logos/logo2.png" alt="Client2"></div>
+        <div class="client-logo"><img src="img/logos/logo3.png" alt="Client3"></div>
+        <div class="client-logo"><img src="img/logos/logo4.png" alt="Client4"></div>
+        <div class="client-logo"><img src="img/logos/logo5.png" alt="Client5"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact-form bg-primary p2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>If you have any queries, please use the form below to contact us.</p>
+      <form action="process.php" method="POST">
+        <div class="form-group">
+          <label for="iName">Name</label>
+          <input type="text" id="iName" name="iName" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="iPhone">Phone</label>
+          <input type="number" id="iPhone" name="iPhone" placeholder="Enter Phone">
+        </div>
+        <div class="form-group">
+          <label for="iEmail">Email</label>
+          <input type="email" id="iEmail" name="iEmail" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="iMessage">Message</label>
+          <textarea id="iMessage" name="iMessage" placeholder="Enter Message"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Send" class="btn btn-dark">
+        </div>
+      </form>
+    </div>
+    <div class="map-area"></div>
+  </section>
+
+<!-- JQuery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <!-- Local JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
